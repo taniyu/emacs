@@ -1,0 +1,3 @@
+#name : ( *)malloc( sizeof() );
+# --
+(${1:doc} ${2:}*)malloc( sizeof($1$2)${} );

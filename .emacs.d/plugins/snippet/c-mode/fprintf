@@ -1,0 +1,3 @@
+#name : fprintf(FILE *stream, const char *format, ...);
+# --
+fprintf(${FILE *stream}, "${char *format}", ${...});

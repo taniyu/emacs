@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name : scanf 
+# contributor : joaotavora
+# --
+scanf("${%s}", ${x});

@@ -1,0 +1,8 @@
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/"))
+(require 'auto-complete)
+(global-auto-complete-mode t)
+(setq ac-auto-start 2)
+(add-to-list 'ac-sources 'ac-source-yasnippet)
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/elisp/ac-dict")
+(ac-config-default)

@@ -1,0 +1,24 @@
+#name : rand();
+# --
+double frand(void)
+{
+  return (rand() / (RAND_MAX +1.0));
+}
+${/*a1ˆÈãa2–¢–‚ÌÀ”*/
+double frand2(double a1, double a2)
+{
+  return (a2-a1) * frand() + a1;
+}
+}
+${/*n–¢–‚Ì©‘R”’l—”*/
+int irand(int n)
+{
+  return (int) (n * frand());
+}
+}
+${/*n1ˆÈãn2ˆÈ‰º‚Ì®”’l—”*/
+int irand2(int n1, int n2)
+{
+  return irand(n2-n1+1) + n1;
+}
+}

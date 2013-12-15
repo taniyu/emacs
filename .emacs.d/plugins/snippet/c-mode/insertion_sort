@@ -1,0 +1,14 @@
+#name : insertion_sort
+# --
+void insertion_sort(${1:int} a[], int n)
+{
+  int i, j;
+  $1 t;
+  for (i = 1; i < n; i++) {
+    j = i;
+    while (j >= 1 && a[j-1] > a[j]) {
+      t = a[j]; a[j] = a[j-1]; a[j-1] = t;
+      j--;
+    }
+  }
+}
