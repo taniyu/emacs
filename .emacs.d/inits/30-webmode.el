@@ -1,5 +1,5 @@
 (add-to-list 'load-path
-              "~/.emacs.d/plugins/web-mode-master")
+              "~/emacs/.emacs.d/plugins/web-mode-master")
 
 (require 'web-mode)
 

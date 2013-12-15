@@ -1,4 +1,4 @@
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/"))
+(add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
 (autoload 'ruby-mode "ruby-mode")
 ;(autoload 'run-ruby "inf-ruby")
 ;(autoload 'inf-ruby-keys "inf-ruby")

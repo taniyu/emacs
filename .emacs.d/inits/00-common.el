@@ -1,4 +1,4 @@
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp/"))
+(add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
 
 (custom-set-variables
  ;自動保存しない
@@ -27,10 +27,10 @@
 
 ;; バックアップファイルの作成場所を変更
 (setq backup-directory-alist
-  (cons (cons ".*" (expand-file-name "~/.emacs.d/backup"))
+  (cons (cons ".*" (expand-file-name "~/emacs/.emacs.d/backup"))
         backup-directory-alist))
 (setq auto-save-file-name-transforms
-  `((".*", (expand-file-name "~/.emacs.d/backup/") t)))
+  `((".*", (expand-file-name "~/emacs/.emacs.d/backup/") t)))
 
 ;; 補完時に大文字小文字を区別しない
 (setq completion-ignore-case t)
