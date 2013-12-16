@@ -1,6 +1,6 @@
 ﻿;; windows用のフォント設定
 (defvar japanese-font "VL Gothic")
- (set-default-font "VL Gothic-11")
+ (set-default-font "VL Gothic-10.5")
 (set-fontset-font nil 'jisx0201                 japanese-font)
 (set-fontset-font nil 'latin-jisx0201           japanese-font)
 (set-fontset-font nil 'japanese-jisx0208        japanese-font)
