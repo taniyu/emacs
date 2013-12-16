@@ -82,6 +82,22 @@
 (set-face-background 'show-paren-match-face nil)       ; 背景色: なし
 (set-face-underline-p 'show-paren-match-face "yellow") ; 下線色: 黄
 
+;; 現在行のハイライト
+(defface hlline-face
+  '((((class color)
+      (background dark))
+     (:background "dark slate gray"))
+;;     (:background "magenta"))
+    (((class color)
+      (background light))
+     (:background  "#98FB98"))
+;;     (:background  "magenta"))
+    (t
+     ()))
+  "*Face used by hl-line.")
+(setq hl-line-face 'hlline-face)
+(global-hl-line-mode)
+
 ;; 閉じ括弧の入力でカーソルを左に移動
 (defun my-insert-bracket-general (lbrackets rbracket)
   (insert rbracket)
