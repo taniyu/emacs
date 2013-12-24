@@ -1,0 +1,28 @@
+***************
+*** 267,278 ****
+          finally return path))
+  
+  (defun anything-c-yas-find-file-snippet-by-template (template &optional other-window)
+-   (let* ((path (anything-c-yas-get-path-by-template template))
+           (ff-func (if other-window 'find-file-other-window 'find-file)))
+      (if path
+          (funcall ff-func path)
+        (message "not found snippet file"))))
+  
+  (defun anything-c-yas-get-path-by-template (template)
+    (let* ((key (anything-c-yas-get-key-by-template template anything-c-yas-cur-snippets-alist))
+           (path (anything-c-yas-find-snippet-file-by-key key)))
+--- 276,288 ----
+          finally return path))
+  
+  (defun anything-c-yas-find-file-snippet-by-template (template &optional other-window)
++   (let* ((path (assoc-default template (assoc-default 'template-file-alist anything-c-yas-cur-snippets-alist)))
+           (ff-func (if other-window 'find-file-other-window 'find-file)))
+      (if path
+          (funcall ff-func path)
+        (message "not found snippet file"))))
+  
++ 
+  (defun anything-c-yas-get-path-by-template (template)
+    (let* ((key (anything-c-yas-get-key-by-template template anything-c-yas-cur-snippets-alist))
+           (path (anything-c-yas-find-snippet-file-by-key key)))
