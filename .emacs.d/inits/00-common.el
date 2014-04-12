@@ -105,3 +105,7 @@
 (global-set-key ">"  'my-insert-angle)
 (global-set-key "\"" 'my-insert-dquote)
 (global-set-key "'"  'my-insert-squote)
+
+;; バッファ名を一意に識別できるようにする
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'post-forward-angle-brackets)
