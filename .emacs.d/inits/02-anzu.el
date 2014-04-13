@@ -4,7 +4,7 @@
 
 (global-anzu-mode +1)
 (set-face-attribute 'anzu-mode-line nil
-                    :foreground "yellow" :weight 'bold)
+                    :foreground "black" :weight 'bold)
 
 (custom-set-variables
  '(anzu-mode-lighter "")
