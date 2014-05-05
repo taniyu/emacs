@@ -112,3 +112,7 @@
 ;; バッファ名を一意に識別できるようにする
 (require 'uniquify)
 (setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+
+
+;; 選択範囲に色を付ける
+(setq transient-mark-mode t)
