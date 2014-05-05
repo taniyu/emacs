@@ -7,3 +7,6 @@
 [submodule ".emacs.d/plugins/rinari"]
 	path = .emacs.d/plugins/rinari
 	url = git://github.com/eschulte/rinari.git
+[submodule ".emacs.d/plugins/helm"]
+	path = .emacs.d/plugins/helm
+	url = https://github.com/emacs-helm/helm
