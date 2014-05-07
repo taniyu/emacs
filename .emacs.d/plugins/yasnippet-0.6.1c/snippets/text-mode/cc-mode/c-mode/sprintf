@@ -1,3 +1,0 @@
-#name : sprintf( char *str, const char *format, );
-# --
-sprintf( ${}, "${}", ${} );

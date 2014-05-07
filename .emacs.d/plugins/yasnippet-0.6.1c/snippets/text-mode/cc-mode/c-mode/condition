@@ -1,3 +1,0 @@
-#name : ? true : false ;
-# --
-($1) ? ${2:ture} : ${3:false} ;
