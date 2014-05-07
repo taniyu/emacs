@@ -1,3 +1,0 @@
-#name : sscanf( const char *str, const char *format, );
-# --
-sscanf( ${}, "${}", ${} );

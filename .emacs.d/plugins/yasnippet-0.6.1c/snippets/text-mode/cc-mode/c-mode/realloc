@@ -1,3 +1,0 @@
-#name : ( *)realloc( void *p, sizeof() );
-# --
-(${1:doc} *)realloc( ${p}, sizeof($1${}) * ${} );

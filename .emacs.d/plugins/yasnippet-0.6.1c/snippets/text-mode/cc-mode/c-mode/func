@@ -1,7 +1,0 @@
-#name: int main(void) { ... }
-# --
-${1:int} ${2:main}(${3:void})
-{
-    $0
-    return 0;
-}

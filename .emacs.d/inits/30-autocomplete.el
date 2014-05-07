@@ -1,4 +1,3 @@
-(add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
 (require 'auto-complete)
 (global-auto-complete-mode t)
 (setq ac-auto-start 2)

@@ -1,3 +1,0 @@
-#name : snprintf( char *str, size_t n, const char *format, );
-# --
-snprintf( ${}, ${N}, "${}", ${} );

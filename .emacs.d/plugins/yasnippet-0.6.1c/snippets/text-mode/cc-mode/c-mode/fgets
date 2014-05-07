@@ -1,3 +1,0 @@
-#name : fgets( char *str, int num, FILE *fp );
-# --
-fgets( ${}, ${length}, ${*fp} );

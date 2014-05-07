@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name : puts 
-# contributor : joaotavora
-# --
-puts("${1:}");

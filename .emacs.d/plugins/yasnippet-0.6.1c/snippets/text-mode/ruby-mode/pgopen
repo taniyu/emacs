@@ -1,4 +1,0 @@
-#name : PGconn.open :dbname =>'', :user =>'', :host =>'', :password =>''
-#group : collections
-# --
-conn = PGconn.open :dbname =>'${}', :user =>'${}', :host =>'${}', :password =>'${}'

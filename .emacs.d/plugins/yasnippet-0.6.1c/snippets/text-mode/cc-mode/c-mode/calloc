@@ -1,3 +1,0 @@
-#name : ( *)calloc( size_t num, sizeof() );
-# --
-(${1:doc} *)calloc( ${}, sizeof($1) );

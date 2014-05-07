@@ -1,3 +1,0 @@
-#name : elseif (...) { ... }
-# --
-else if (${1:conditon}) { $0 }
