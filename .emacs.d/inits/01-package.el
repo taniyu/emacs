@@ -19,6 +19,7 @@
     js2-mode
     magit
     gitconfig-mode
+    flycheck
     ))
 
 (let ((not-installed (loop for x in installing-package-list
