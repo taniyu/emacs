@@ -26,6 +26,7 @@
     expand-region
     multiple-cursors
     web-mode
+    rainbow-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
