@@ -20,6 +20,11 @@
     magit
     gitconfig-mode
     flycheck
+    rinari
+    rhtml-mode
+    php-mode
+    expand-region
+    multiple-cursors
     ))
 
 (let ((not-installed (loop for x in installing-package-list
