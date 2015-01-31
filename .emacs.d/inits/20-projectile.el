@@ -1,5 +1,7 @@
 (require 'projectile)
-(projectile-global-mode)
+(custom-set-variables
+ '(projectile-enable-caching t))
+(projectile-global-mode t)
 
 (require 'projectile-rails)
 (add-hook 'projectile-mode-hook 'projectile-rails-on)
