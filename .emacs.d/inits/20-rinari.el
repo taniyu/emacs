@@ -1,2 +1,0 @@
-;; Rinari
-(require 'rinari)

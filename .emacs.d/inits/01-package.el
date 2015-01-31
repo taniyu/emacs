@@ -20,13 +20,16 @@
     magit
     gitconfig-mode
     flycheck
-    rinari
+    ;; rinari
     rhtml-mode
     php-mode
     expand-region
     multiple-cursors
     web-mode
     rainbow-mode
+    projectile
+    projectile-rails
+    guide-key
     ))
 
 (let ((not-installed (loop for x in installing-package-list
