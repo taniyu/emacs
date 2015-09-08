@@ -17,6 +17,8 @@
     yaml-mode
     slim-mode
     js2-mode
+    sass-mode
+    coffee-mode
     magit
     gitconfig-mode
     flycheck
