@@ -1,5 +1,6 @@
 emacsの設定
 =====
+
 ## clone後に実行すること
 1. submoduleのディレクトリに移動
 2. submodule init を実行
