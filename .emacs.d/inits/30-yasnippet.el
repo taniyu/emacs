@@ -11,7 +11,7 @@
 (setq yas-snippet-dirs
       '("~/emacs/.emacs.d/plugins/snippet"
         "~/emacs/.emacs.d/plugins/yasnippets_rails/rails-snippets"
-        "~/.emacs.d/elpa/yasnippet-20140427.1224/snippets"
+        "~/.emacs.d/elpa/yasnippet-20150811.1222/snippets"
         ))
 (yas-global-mode 1)
 ;; (yas-initialize)
