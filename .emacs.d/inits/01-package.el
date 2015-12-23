@@ -14,6 +14,8 @@
     yasnippet
     helm
     helm-descbinds
+    helm-git-grep
+    helm-gtags
     yaml-mode
     slim-mode
     js2-mode
@@ -22,7 +24,6 @@
     magit
     gitconfig-mode
     flycheck
-    ;; rinari
     rhtml-mode
     php-mode
     expand-region
@@ -32,6 +33,7 @@
     projectile
     projectile-rails
     guide-key
+    company
     ))
 
 (let ((not-installed (loop for x in installing-package-list
