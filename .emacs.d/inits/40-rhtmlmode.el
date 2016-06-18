@@ -1,5 +1,5 @@
 ;;; rhtml-mode
-(require 'rhtml-mode)
+(autoload 'rhtml-mode "rhtml-mode")
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . rhtml-mode))
 (add-hook 'rhtml-mode-hook (lambda ( (rinari-launch))))
 (set-face-background 'erb-face nil)

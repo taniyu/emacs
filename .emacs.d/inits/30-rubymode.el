@@ -15,7 +15,7 @@
 (setq ruby-indent-level 2)
 ;(setq ruby-indent-tabs-mode nil)
 ;; ruby-electric
-(require 'ruby-electric)
+(autoload 'ruby-electric "ruby-electric")
 (add-hook 'ruby-mode-hook '(lambda () (ruby-electric-mode t)))
 (setq ruby-electric-expand-delimiters-list nil)
 ;; encodeを入力しないようにする

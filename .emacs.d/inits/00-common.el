@@ -148,6 +148,6 @@
 (add-hook 'python-mode-hook
           '(lambda ()
              (setq indent-tabs-mode nil)
-             (setq indent-level 2)
-             (setq python-indent 2)))
+             (setq indent-level 4)
+             (setq python-indent 4)))
 

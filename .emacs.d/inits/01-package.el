@@ -30,10 +30,12 @@
     multiple-cursors
     web-mode
     rainbow-mode
+    rainbow-delimiters
     projectile
     projectile-rails
     guide-key
     company
+    key-chord
     ))
 
 (let ((not-installed (loop for x in installing-package-list
