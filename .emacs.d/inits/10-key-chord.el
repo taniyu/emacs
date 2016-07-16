@@ -7,3 +7,6 @@
 (key-chord-define-global "qr" 'query-replace-regexp)
 (key-chord-define-global "fk" 'helm-for-files)
 (key-chord-define-global "fj" 'helm-M-x)
+(key-chord-define-global "uu" (lambda ()
+                                (interactive)
+                                (switch-to-buffer nil)))
