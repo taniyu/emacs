@@ -11,33 +11,33 @@
   '(
     ;; 使いたいパッケージ名を記述
     auto-complete
-    yasnippet
+    coffee-mode
+    company
+    expand-region
+    flycheck
+    gitconfig-mode
+    guide-key
     helm
     helm-descbinds
     helm-git-grep
     helm-gtags
-    yaml-mode
-    slim-mode
+    ibuffer-vc
+    indent-guide
     js2-mode
-    sass-mode
-    coffee-mode
+    key-chord
     magit
-    gitconfig-mode
-    flycheck
-    rhtml-mode
-    php-mode
-    expand-region
     multiple-cursors
-    web-mode
-    rainbow-mode
-    rainbow-delimiters
+    php-mode
     projectile
     projectile-rails
-    guide-key
-    company
-    key-chord
-    highlight-indentation
-    ibuffer-vc
+    rainbow-mode
+    rainbow-delimiters
+    rhtml-mode
+    slim-mode
+    sass-mode
+    web-mode
+    yasnippet
+    yaml-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
