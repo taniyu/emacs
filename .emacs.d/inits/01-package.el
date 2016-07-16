@@ -36,6 +36,8 @@
     guide-key
     company
     key-chord
+    highlight-indentation
+    ibuffer-vc
     ))
 
 (let ((not-installed (loop for x in installing-package-list

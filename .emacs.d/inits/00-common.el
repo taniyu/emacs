@@ -57,9 +57,9 @@
 ;(iswitchb-default-keybindings)
 ;; (yes/no) を (y/n)に
 (fset 'yes-or-no-p 'y-or-n-p)
+;; キーバインド
 ;; C-h をバックスペースに
 (global-set-key "\C-h" 'delete-backward-char)
-
 
 ;; 背景色: 黒
 (custom-set-faces '(default ((t (
@@ -143,11 +143,11 @@
   (other-window 1))
 (global-set-key (kbd "C-t") 'other-window-or-split)
 
-
 ;; python インデント
 (add-hook 'python-mode-hook
           '(lambda ()
              (setq indent-tabs-mode nil)
              (setq indent-level 4)
              (setq python-indent 4)))
+
 

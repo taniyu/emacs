@@ -4,6 +4,6 @@
 
 (key-chord-define-global "gl" 'goto-line)
 (key-chord-define-global "gr" 'helm-git-grep)
-(key-chord-define-global "rp" 'query-replace-regexp)
+(key-chord-define-global "qr" 'query-replace-regexp)
 (key-chord-define-global "fk" 'helm-for-files)
 (key-chord-define-global "fj" 'helm-M-x)
