@@ -143,11 +143,3 @@
   (other-window 1))
 (global-set-key (kbd "C-t") 'other-window-or-split)
 
-;; python インデント
-(add-hook 'python-mode-hook
-          '(lambda ()
-             (setq indent-tabs-mode nil)
-             (setq indent-level 4)
-             (setq python-indent 4)))
-
-
