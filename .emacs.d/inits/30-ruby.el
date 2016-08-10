@@ -20,3 +20,5 @@
 ;(setq ruby-electric-expand-delimiters-list nil)
 ;; encodeを入力しないようにする
 (defun ruby-mode-set-encoding () nil)
+(custom-set-variables
+ '(ruby-insert-encoding-magic-comment nil))
