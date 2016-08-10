@@ -6,7 +6,7 @@
 (define-key global-map (kbd "M-y")     'helm-show-kill-ring)
 (define-key global-map (kbd "C-c i")   'helm-imenu)
 (define-key global-map (kbd "C-x b")   'helm-buffers-list)
-(define-key global-map (kbd "C-c h g")   'helm-git-grep)
+(define-key global-map (kbd "C-c g g")   'helm-git-grep)
 (define-key global-map (kbd "C-c h f")   'helm-for-files)
 
 (define-key helm-map (kbd "C-h") 'delete-backward-char)
