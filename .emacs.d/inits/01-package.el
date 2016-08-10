@@ -22,6 +22,7 @@
     helm-descbinds
     helm-git-grep
     helm-gtags
+    helm-projectile
     ibuffer-vc
     indent-guide
     js2-mode
