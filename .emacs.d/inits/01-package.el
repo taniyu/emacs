@@ -13,6 +13,7 @@
     auto-complete
     coffee-mode
     company
+    dumb-jump
     expand-region
     flycheck
     gitconfig-mode
