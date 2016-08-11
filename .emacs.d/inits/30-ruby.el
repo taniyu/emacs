@@ -1,5 +1,5 @@
 (add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
-(autoload 'ruby-mode "ruby-mode")
+(require 'ruby-mode)
 ;(autoload 'run-ruby "inf-ruby")
 ;(autoload 'inf-ruby-keys "inf-ruby")
 (global-set-key "\C-crb" 'ruby-mode)
@@ -20,5 +20,4 @@
 ;(setq ruby-electric-expand-delimiters-list nil)
 ;; encodeを入力しないようにする
 (defun ruby-mode-set-encoding () nil)
-(custom-set-variables
- '(ruby-insert-encoding-magic-comment nil))
+(setq ruby-insert-encoding-magic-comment nil)
