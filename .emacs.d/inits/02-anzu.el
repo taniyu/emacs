@@ -1,5 +1,3 @@
-(add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
-
 (require 'anzu)
 
 (global-anzu-mode +1)
