@@ -1,2 +1,4 @@
-(define-key global-map (kbd "C-c d g")   'dumb-jump-go)
-(define-key global-map (kbd "C-c d b")   'dumb-jump-back)
+(use-package dumb-jump
+  :bind (("C-c d g" . dumb-jump-go)
+         ("C-c d b" . dumb-jump-back))
+  )

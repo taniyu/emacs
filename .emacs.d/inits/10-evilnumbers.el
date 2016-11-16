@@ -1,4 +1,3 @@
-(add-to-list 'load-path (expand-file-name "~/emacs/.emacs.d/elisp/"))
 (autoload 'evil-numbers "evil-numbers", nil t)
 ;; (smartrep-define-key
 ;;     global-map "C-c" '(("+" . 'evil-numbers/inc-at-pt)

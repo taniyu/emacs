@@ -10,6 +10,7 @@
 (depends-on "dumb-jump")
 (depends-on "expand-region")
 (depends-on "f")
+(depends-on "flex-autopair")
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "gitconfig-mode")

@@ -103,13 +103,16 @@
 ;;(global-set-key ">"  'my-insert-angle)
 ;;(global-set-key "\"" 'my-insert-dquote)
 ;;(global-set-key "'"  'my-insert-squote)
-(require 'flex-autopair)
-(flex-autopair-mode 1)
-
+(use-package flex-autopair
+  :config
+  (flex-autopair-mode 1)
+  )
 
 ;; バッファ名を一意に識別できるようにする
-(require 'uniquify)
-(setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+(use-package uniquify
+  :config
+  (setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+  )
 
 
 ;; 選択範囲に色を付ける
