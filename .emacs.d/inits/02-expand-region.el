@@ -1,6 +1,9 @@
 ﻿;; expand region
-(require 'expand-region)
-(global-set-key (kbd "C-,") 'er/expand-region) ;; 広げる
-(global-set-key (kbd "C-M-,") 'er/contract-region) ;; 狭める
+(use-package expand-region
+  :bind (("C-c e r" . er/expand-region)
+         ("C-c c r" . er/contract-region)
+         )
+  :config
+  (transient-mark-mode t)
+  )
 
-(transient-mark-mode t)
