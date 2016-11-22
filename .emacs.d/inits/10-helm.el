@@ -30,6 +30,6 @@
              (local-set-key (kbd "C-t") 'helm-gtags-pop-stack)))
 
 (add-hook 'php-mode-hook 'helm-gtags-mode)
-(add-hook 'ruby-mode-hook 'helm-gtags-mode)
+;;(add-hook 'ruby-mode-hook 'helm-gtags-mode)
 
 (setq helm-gtags-auto-update t)
