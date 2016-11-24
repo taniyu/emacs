@@ -2,8 +2,8 @@ emacsの設定
 =====
 
 ## 必要なツール
-[the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
-
+[the_silver_searcher](https://github.com/ggreer/the_silver_searcher)  
+[cask](https://github.com/cask/cask)
 
 ## その他
 ### byte-compileの方法
